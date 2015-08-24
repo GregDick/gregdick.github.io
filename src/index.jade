@@ -9,16 +9,46 @@ html
     link(rel="stylesheet" href="_styles/main.css")
   body
     .container-fluid
-      .row
-        h1 Take a look.
-      .row.clipped-in
-        a(href="https://gregdick.github.io/clipped-in") A Climber's Social Network
-      .row.nodetunes
-        a(href="https://calm-shelf-7951.herokuapp.com/") Music
-      .row.blackjack
-        a(href="http://gregdick.github.io/blackjack") Blackjack
-      .row.weather
-        a(href="http://gregdick.github.io/weather-app") Weather
-      .row.myimdb
-        a(href="http://gregdick.github.io/myimdb") Movies
+      .row.links.pull-right
+        a.btn.btn-social-icon.btn-lg(href="https://github.com/gregdick")
+          i.fa.fa-github
+        a.btn.btn-social-icon.btn-lg(href="https://www.linkedin.com/in/gregdick1")
+          i.fa.fa-linkedin
+        a.btn.btn-social-icon.btn-lg(href="https://twitter.com/gregdick7")
+          i.fa.fa-twitter
+      .row.headline
+        h1.text-center Take a look.
+      .row.clipped-in.app
+        a(href="https://gregdick.github.io/clipped-in")
+          .col-md-8.preview
+              img(src="/img/Clipped-in-preview.png")
+          .col-md-4.description
+            p.h2.text-right Clipped In
+            p.h4.text-right A Climber's Social Network
+      .row.nodetunes.app
+        a(href="https://calm-shelf-7951.herokuapp.com/")
+          .col-md-8.preview
+              img(src="/img/nodetunes-preview.png")
+          .col-md-4.description
+            p.h2.text-right Nodetunes
+            p.h4.text-right A Music Collection
+      .row.blackjack.app
+        a(href="http://gregdick.github.io/blackjack")
+          .col-md-8.preview
+              img(src="/img/blackjack-preview.png")
+          .col-md-4.description
+            p.h2.text-right Blackjack
+            p.h4.text-right Let's Play
+      .row.weather.app
+        a(href="http://gregdick.github.io/weather-app")
+          .col-md-8.preview
+              img(src="/img/Clipped-in-preview.png")
+          .col-md-4.description
+            p.h4.text-right A Climber's Social Network
+      .row.myimdb.app
+        a(href="http://gregdick.github.io/myimdb")
+          .col-md-8.preview
+              img(src="/img/Clipped-in-preview.png")
+          .col-md-4.description
+            p.h4.text-right A Climber's Social Network
     script(src="lib/build.js")
