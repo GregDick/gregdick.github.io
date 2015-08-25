@@ -11,32 +11,58 @@ a {
   padding: 0; }
 
 .description {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 1.75em; }
+
+.description p {
+  margin: 6% 3%; }
+
+.border {
+  border: 2px solid rgba(158, 163, 191, 0.5); }
 
 .preview img {
   -webkit-filter: grayscale(50%);
           filter: grayscale(50%);
-  margin-left: -4%;
   width: 100%;
-  height: auto; }
+  height: 100%;
+  border-radius: 5px; }
+
+.even .preview img {
+  margin-left: 6%; }
+
+.odd .preview img {
+  margin-left: -6%; }
 
 .app {
-  margin: 2% 0;
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s; }
+  margin: 6% 0; }
 
 .app p, .app img {
-  -webkit-transition: 1.5s;
-          transition: 1.5s; }
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
 
-.app:hover img {
+.odd:hover img {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
-  margin-left: 8%; }
+  margin-left: 8%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
 
-.app:hover p {
-  margin-right: 8%; }
+.odd:hover p {
+  margin-right: 10%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+.even:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  margin-left: -8%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+.even:hover p {
+  margin-left: 10%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
 
 .links i {
   background-color: rgba(158, 163, 191, 0.5);
