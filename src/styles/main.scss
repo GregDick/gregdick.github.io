@@ -1,4 +1,4 @@
-a{
+a {
   color : inherit;
 }
 
@@ -15,33 +15,64 @@ a{
 }
 
 .description {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size : 1.75em;
+}
+
+.description p {
+  margin : 6% 3%;
+}
+
+.border {
+  border : 2px solid rgba(158, 163, 191, 0.5);
 }
 
 .preview img {
   filter : grayscale(50%);
-  margin-left: -4%;
   width : 100%;
-  height : auto;
+  height : 100%;
+  border-radius : 5px;
 }
 
+.even .preview img {
+  margin-left : 6%;
+}
+
+.odd .preview img {
+  margin-left : -6%;
+}
+
+
 .app {
-  margin : 2% 0;
-  animation : fadein 2s;
+  margin : 6% 0;
 }
 
 .app p, .app img {
-  transition: 1.5s;
+  transition: 0.5s;
 }
 
-.app:hover{
+.odd:hover {
+
   img {
     filter : grayscale(0%);
     margin-left : 8%;
+    transition: 1.5s 300ms;
   }
   p {
-    margin-right: 8%;
+    margin-right : 10%;
+    transition: 1.5s 300ms;
+  }
+}
+
+.even:hover {
+  img {
+    filter : grayscale(0%);
+    margin-left : -8%;
+    transition: 1.5s 300ms;
+  }
+  p {
+    margin-left : 10%;
+    transition: 1.5s 300ms;
   }
 }
 
