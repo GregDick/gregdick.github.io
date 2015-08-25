@@ -2,6 +2,20 @@ a {
   color : inherit;
 }
 
+.links i {
+  background-color : rgba(158, 163, 191, 0.5);
+  border-color : gray;
+}
+
+.links a {
+  color : white;
+}
+
+.links i:hover {
+  background-color : rgb(158, 163, 191);
+}
+
+
 .headline {
   margin : 8% auto 1%;
 }
@@ -23,10 +37,6 @@ a {
   margin : 6% 3%;
 }
 
-.border {
-  border : 2px solid rgba(158, 163, 191, 0.5);
-}
-
 .preview img {
   filter : grayscale(50%);
   width : 100%;
@@ -34,17 +44,19 @@ a {
   border-radius : 5px;
 }
 
-.even .preview img {
-  margin-left : 6%;
-}
 
 .odd .preview img {
   margin-left : -6%;
+  box-shadow: -3px 5px 10px -2px gray;
 }
 
+.even .preview img {
+  margin-left : 6%;
+  box-shadow: 3px 5px 10px -2px gray;
+}
 
 .app {
-  margin : 6% 0;
+  margin : 12% 0;
 }
 
 .app p, .app img {
@@ -76,16 +88,4 @@ a {
   }
 }
 
-.links i {
-  background-color : rgba(158, 163, 191, 0.5);
-  border-color : gray;
-}
-
-.links a {
-  color : white;
-}
-
-.links i:hover {
-  background-color : rgb(158, 163, 191);
-}
 
