@@ -4,6 +4,9 @@ body {
 a {
   color: inherit; }
 
+a:hover {
+  text-decoration: none; }
+
 .links i {
   background-color: rgba(158, 163, 191, 0.5);
   border-color: gray; }
