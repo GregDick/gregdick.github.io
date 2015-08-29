@@ -11,7 +11,14 @@ html
     nav.navbar.navbar-default.navbar-fixed-top
       .container-fluid
         .navbar-header
-          p.navbar-brand G R E G | D I C K
+          p.navbar-brand G R E G &nbsp; D I C K
+        .navbar-right
+          a.links(href="https://github.com/gregdick")
+            i.fa.fa-github
+            span GITHUB
+          a.links(href="https://www.linkedin.com/in/gregdick1")
+            i.fa.fa-linkedin
+            span LINKEDIN
     .container-fluid
       .row
         .col-md-6.col-md-offset-5.banner.text-right
@@ -54,12 +61,6 @@ html
             p.h2.text-right Movies
             p.h4.text-right A Watch List
       .row.meetups
-        .col-md-9.col-md-offset-1
+        .col-md-6.col-md-offset-1
           h3 I'm proud to be part of a great community of developers here in Nashville. Shout out to #[a(href="http://www.meetup.com/nashjs/") Nash JS] and #[a(href="http://www.codefornashville.org/") Code For Nashville.] Thanks for being great mentors and teachers.
-      .row.footer
-        .links.pull-right
-          a(href="https://github.com/gregdick")
-            i.fa.fa-github
-          a(href="https://www.linkedin.com/in/gregdick1")
-            i.fa.fa-linkedin
     script(src="lib/build.js")
