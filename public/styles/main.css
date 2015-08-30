@@ -20,19 +20,17 @@ a:hover {
 .links i {
   background-color: #333;
   font-size: 2em;
-  padding: 5px;
+  padding: 5px 15px;
   margin-top: 15px; }
 
 .links {
   color: white; }
-  .links i {
-    margin-right: 15px; }
   .links span {
     font-size: 1.5em;
     opacity: 0;
     margin-right: 50px;
-    -webkit-transition: 500ms 300ms;
-            transition: 500ms 300ms; }
+    -webkit-transition: 350ms 300ms;
+            transition: 350ms 300ms; }
 
 .navbar-right a:hover {
   color: white; }
@@ -110,6 +108,11 @@ a:hover {
           transition: 1.5s 300ms; }
 
 /*=========== lower page stylings ===========*/
+.meetups {
+  margin: 0 5% 5%; }
+  .meetups h3 {
+    line-height: 200%; }
+
 .meetups a {
   margin-bottom: 5%;
   border-bottom: 3px solid #b4e7f8;
@@ -120,7 +123,3 @@ a:hover {
 .meetups a:hover {
   color: #333333;
   background: #b4e7f8; }
-
-/*=========== footer stylings ===========*/
-.footer {
-  margin: 0 5% 5%; }

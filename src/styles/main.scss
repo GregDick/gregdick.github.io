@@ -1,7 +1,7 @@
 /*=========== general stylings ===========*/
 
 body {
-  padding-top: 8%;
+  padding-top : 8%;
   overflow-x : hidden;
 }
 
@@ -16,34 +16,29 @@ a:hover {
 /*=========== nav stylings ===========*/
 
 .navbar-default {
-  background: #333;
+  background : #333;
 }
 
 .navbar-brand {
-  margin-top: 10.5px;
-  font-size: 1.5em;
+  margin-top : 10.5px;
+  font-size : 1.5em;
 }
 
 .links i {
   background-color : #333;
   font-size : 2em;
-  padding : 5px;
+  padding : 5px 15px;
   margin-top : 15px;
 }
 
 .links {
   color : white;
 
-
-  i {
-    margin-right: 15px;
-  }
-
   span {
     font-size : 1.5em;
     opacity : 0;
     margin-right : 50px;
-    transition : 500ms 300ms;
+    transition : 350ms 300ms;
   }
 
 }
@@ -84,7 +79,7 @@ a:hover {
 }
 
 .description {
-  margin-top: 3%;
+  margin-top : 3%;
   font-size : 1.75em;
 }
 
@@ -102,12 +97,12 @@ a:hover {
 
 .odd .preview img {
   margin-left : -6%;
-  box-shadow: -3px 5px 10px -2px gray;
+  box-shadow : -3px 5px 10px -2px gray;
 }
 
 .even .preview img {
   margin-left : 6%;
-  box-shadow: 3px 5px 10px -2px gray;
+  box-shadow : 3px 5px 10px -2px gray;
 }
 
 .app {
@@ -115,7 +110,7 @@ a:hover {
 }
 
 .app p, .app img {
-  transition: 0.5s;
+  transition : 0.5s;
 }
 
 .odd:hover {
@@ -123,11 +118,11 @@ a:hover {
   img {
     filter : grayscale(0%);
     margin-left : 8%;
-    transition: 1.5s 300ms;
+    transition : 1.5s 300ms;
   }
   p {
     margin-right : 10%;
-    transition: 1.5s 300ms;
+    transition : 1.5s 300ms;
   }
 }
 
@@ -135,20 +130,27 @@ a:hover {
   img {
     filter : grayscale(0%);
     margin-left : -8%;
-    transition: 1.5s 300ms;
+    transition : 1.5s 300ms;
   }
   p {
     margin-left : 10%;
-    transition: 1.5s 300ms;
+    transition : 1.5s 300ms;
   }
 }
 
 /*=========== lower page stylings ===========*/
+.meetups {
+  margin : 0 5% 5%;
+
+  h3 {
+    line-height : 200%;
+  }
+}
 
 .meetups a {
-  margin-bottom: 5%;
-  border-bottom: 3px solid #b4e7f8;
-  box-shadow: inset 0 -7px 0 #b4e7f8;
+  margin-bottom : 5%;
+  border-bottom : 3px solid #b4e7f8;
+  box-shadow : inset 0 -7px 0 #b4e7f8;
   transition : background 300ms;
 }
 
@@ -157,11 +159,8 @@ a:hover {
   background : #b4e7f8;
 }
 
-/*=========== footer stylings ===========*/
 
-.footer {
-  margin : 0 5% 5%;
-}
+
 
 
 
