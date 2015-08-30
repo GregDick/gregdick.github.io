@@ -8,14 +8,21 @@ html
     link(rel="stylesheet" href="lib/build.css")
     link(rel="stylesheet" href="styles/main.css")
   body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          p.navbar-brand G R E G &nbsp; D I C K
+        .navbar-right
+          a.links(href="https://github.com/gregdick")
+            i.fa.fa-github
+            span GITHUB
+          a.links(href="https://www.linkedin.com/in/gregdick1")
+            i.fa.fa-linkedin
+            span LINKEDIN
     .container-fluid
-      .row.links.pull-right
-        a.btn.btn-social-icon.btn-lg(href="https://github.com/gregdick")
-          i.fa.fa-github
-        a.btn.btn-social-icon.btn-lg(href="https://www.linkedin.com/in/gregdick1")
-          i.fa.fa-linkedin
-        a.btn.btn-social-icon.btn-lg(href="https://twitter.com/gregdick7")
-          i.fa.fa-twitter
+      .row
+        .col-md-6.col-md-offset-5.banner.text-right
+          h3 I'm a software developer living in Nashville, TN. For me, coding is both a creative outlet as well as a powerful tool for problem solving. I try to demonstrate that in every application I build.
       .row.headline
         h1.text-center Take a look.
       .row.clipped-in.app.odd
@@ -53,4 +60,7 @@ html
           .col-md-4.description
             p.h2.text-right Movies
             p.h4.text-right A Watch List
+      .row.meetups
+        .col-md-6.col-md-offset-1
+          h3 I'm proud to be part of a great community of developers here in Nashville. Shout out to #[a(href="http://www.meetup.com/nashjs/") Nash JS] and #[a(href="http://www.codefornashville.org/") Code For Nashville.] Thanks for being great mentors and teachers.
     script(src="lib/build.js")
