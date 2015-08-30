@@ -1,3 +1,5 @@
+/*=========== general stylings ===========*/
+
 body {
   padding-top: 8%;
   overflow-x : hidden;
@@ -11,6 +13,8 @@ a:hover {
   text-decoration : none;
 }
 
+/*=========== nav stylings ===========*/
+
 .navbar-default {
   background: #333;
 }
@@ -19,6 +23,43 @@ a:hover {
   margin-top: 10.5px;
   font-size: 1.5em;
 }
+
+.links i {
+  background-color : #333;
+  font-size : 2em;
+  padding : 5px;
+  margin-top : 15px;
+}
+
+.links {
+  color : white;
+
+
+  i {
+    margin-right: 15px;
+  }
+
+  span {
+    font-size : 1.5em;
+    opacity : 0;
+    margin-right : 50px;
+    transition : 500ms 300ms;
+  }
+
+}
+
+.navbar-right a:hover {
+
+  color : white;
+
+  span {
+    opacity : 1;
+  }
+
+}
+
+
+/*=========== upper page stylings ===========*/
 
 .banner {
   margin-top : 5%;
@@ -35,6 +76,8 @@ a:hover {
 .headline h1 {
   font-size : 3.5em;
 }
+
+/*=========== project stylings ===========*/
 
 .preview {
   padding : 0;
@@ -100,7 +143,10 @@ a:hover {
   }
 }
 
+/*=========== lower page stylings ===========*/
+
 .meetups a {
+  margin-bottom: 5%;
   border-bottom: 3px solid #b4e7f8;
   box-shadow: inset 0 -7px 0 #b4e7f8;
   transition : background 300ms;
@@ -111,50 +157,12 @@ a:hover {
   background : #b4e7f8;
 }
 
+/*=========== footer stylings ===========*/
+
 .footer {
   margin : 0 5% 5%;
 }
 
-.links i {
-  background-color : #333;
-  font-size : 2em;
-  padding : 5px;
-  margin-top : 15px;
-}
-
-.links {
-  color : white;
-  .fa-github {
-    margin-right: 30px;
-  }
-
-  .fa-linkedin {
-    margin-right : 100px;
-  }
-
-  span {
-    display : none;
-    font-size : 1.5em;
-  }
-}
-
-.links
-
-.links:hover {
-  color : white;
-}
-
-.navbar-right:hover {
-  .fa-linkedin {
-    transform : translateX(-100px);
-    transition : 500ms;
-  }
-
-  .fa-github {
-    transform : translateX(-200px);
-    transition : 500ms;
-  }
-}
 
 
 
