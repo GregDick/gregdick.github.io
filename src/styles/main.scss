@@ -151,6 +151,28 @@ a:visited {
   }
 }
 
+/*=========== tech stack stylings ===========*/
+
+.stack {
+  display : flex;
+  flex-flow : row wrap-reverse;
+  justify-content : space-around;
+}
+
+.tech {
+  margin : 10px auto;
+}
+
+.wide img {
+  width : 300px;
+  height : auto;
+}
+
+.tall img {
+  height : 100px;
+  width : auto;
+}
+
 /*=========== lower page stylings ===========*/
 .meetups {
   margin : 0 5% 5%;

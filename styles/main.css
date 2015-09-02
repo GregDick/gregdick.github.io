@@ -118,6 +118,30 @@ a:visited {
   -webkit-transition: 1.5s 300ms;
           transition: 1.5s 300ms; }
 
+/*=========== tech stack stylings ===========*/
+.stack {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap-reverse;
+      -ms-flex-flow: row wrap-reverse;
+          flex-flow: row wrap-reverse;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.tech {
+  margin: 10px auto; }
+
+.wide img {
+  width: 300px;
+  height: auto; }
+
+.tall img {
+  height: 100px;
+  width: auto; }
+
 /*=========== lower page stylings ===========*/
 .meetups {
   margin: 0 5% 5%; }
