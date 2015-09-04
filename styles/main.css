@@ -1,0 +1,192 @@
+/*=========== general stylings ===========*/
+body {
+  padding-top: 8%;
+  overflow-x: hidden; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none;
+  color: white; }
+
+/*=========== nav stylings ===========*/
+@media (max-width: 767px) {
+  .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-right, #nav-container {
+    display: inline !important; }
+  .navbar-brand {
+    margin-right: 35px !important;
+    margin-left: 25px !important;
+    padding: 5px 15px !important; }
+  .links i {
+    margin-top: 0 !important;
+    padding: 5px 15px 0 !important; }
+  .links p {
+    margin-top: 0 !important; }
+  .banner h3 {
+    margin-top: 20% !important; } }
+
+.navbar-default {
+  background: #333; }
+
+.navbar-brand {
+  margin-top: 10.5px;
+  font-size: 1.5em; }
+
+.links {
+  color: white; }
+  .links i {
+    background-color: #333;
+    font-size: 2em;
+    padding: 5px 15px;
+    margin-top: 15px; }
+  .links p {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 5px 15px;
+    display: inline-block; }
+  .links span {
+    font-size: 1.5em;
+    opacity: 0;
+    margin-right: 50px;
+    -webkit-transition: 350ms 300ms;
+            transition: 350ms 300ms; }
+
+.navbar-right a:hover {
+  color: white; }
+  .navbar-right a:hover span {
+    opacity: 1; }
+
+/*=========== upper page stylings ===========*/
+.banner {
+  margin-top: 5%; }
+
+.banner h3 {
+  line-height: 200%; }
+
+.headline {
+  margin: 8% auto 1%; }
+
+.headline h1 {
+  font-size: 3.5em; }
+
+/*=========== project stylings ===========*/
+.preview {
+  padding: 0; }
+
+.description {
+  margin-top: 3%;
+  font-size: 1.75em; }
+
+.description p {
+  margin: 6% 3%; }
+
+.preview img {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; }
+
+.odd .preview img {
+  margin-left: -6%;
+  box-shadow: -3px 5px 10px -2px gray; }
+
+.even .preview img {
+  margin-left: 6%;
+  box-shadow: 3px 5px 10px -2px gray; }
+
+.app {
+  margin: 12% 0; }
+
+.app p, .app img {
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
+
+.odd:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  margin-left: 8%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+.odd:hover p {
+  margin-right: 10%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+.even:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  margin-left: -8%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+.even:hover p {
+  margin-left: 10%;
+  -webkit-transition: 1.5s 300ms;
+          transition: 1.5s 300ms; }
+
+/*=========== tech stack stylings ===========*/
+.quote {
+  margin-top: -5%; }
+  .quote h3 {
+    line-height: 200%; }
+
+.stack {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap-reverse;
+      -ms-flex-flow: row wrap-reverse;
+          flex-flow: row wrap-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  margin: 5%; }
+
+.tech {
+  margin: 10px auto; }
+
+.wide img {
+  width: 275px;
+  height: auto; }
+
+.tall img {
+  height: 100px;
+  width: auto; }
+
+/*=========== lower page stylings ===========*/
+.meetups {
+  margin: 0 5% 5%; }
+  .meetups h3 {
+    line-height: 200%; }
+
+.meetups a {
+  margin-bottom: 5%;
+  border-bottom: 3px solid #b4e7f8;
+  box-shadow: inset 0 -7px 0 #b4e7f8;
+  -webkit-transition: background 300ms;
+          transition: background 300ms; }
+
+.meetups a:hover {
+  color: #333333;
+  background: #b4e7f8; }
+
+.meetups a:visited {
+  color: #333; }
