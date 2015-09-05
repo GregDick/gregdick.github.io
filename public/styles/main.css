@@ -14,22 +14,19 @@ a:visited {
   text-decoration: none;
   color: white; }
 
-/*=========== nav stylings ===========*/
+/*=========== mobile styles ===========*/
 @media (max-width: 767px) {
-  .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-right, #nav-container {
+  .banner {
+    margin-top: 20% !important; }
+  .nav li, .nav li a {
     display: inline !important; }
-  .navbar-brand {
-    margin-right: 35px !important;
-    margin-left: 25px !important;
-    padding: 5px 15px !important; }
-  .links i {
-    margin-top: 0 !important;
-    padding: 5px 15px 0 !important; }
-  .links p {
-    margin-top: 0 !important; }
-  .banner h3 {
-    margin-top: 20% !important; } }
+  .links {
+    padding-left: 30px !important; } }
 
+#mobile-button {
+  margin: 5% 15px 8px 0; }
+
+/*=========== nav stylings ===========*/
 .navbar-default {
   background: #333; }
 

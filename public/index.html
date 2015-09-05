@@ -11,10 +11,18 @@
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div id="nav-container" class="container-fluid">
-        <div id="nav-left" class="navbar-header"><a href="/#home">
-            <p class="navbar-brand">G R E G &nbsp; D I C K</p></a></div>
-        <div id="nav-right" class="navbar-right"><a href="https://github.com/gregdick" class="links"><i class="fa fa-github"></i><span class="hidden-xs">GITHUB</span></a><a href="https://www.linkedin.com/in/gregoryjdick" class="links"><i class="fa fa-linkedin"></i><span class="hidden-xs">LINKEDIN</span></a><a href="mailto:gregdick.dev@gmail.com" class="links">
-            <p>@</p><span class="hidden-xs">EMAIL</span></a></div>
+        <div id="nav-left" class="navbar-header">
+          <button id="mobile-button" type="button" data-toggle="collapse" data-target="#hamburger" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/#home">
+            <p class="navbar-brand">G R E G &nbsp; D I C K</p></a>
+        </div>
+        <div id="hamburger" class="collapse navbar-collapse">
+          <ul id="nav-right" class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/gregdick" class="links"><i class="fa fa-github"></i><span class="hidden-xs">GITHUB</span></a></li>
+            <li><a href="https://www.linkedin.com/in/gregoryjdick" class="links"><i class="fa fa-linkedin"></i><span class="hidden-xs">LINKEDIN</span></a></li>
+            <li><a href="mailto:gregdick.dev@gmail.com" class="links">
+                <p>@</p><span class="hidden-xs">EMAIL</span></a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div id="home" class="container-fluid">
