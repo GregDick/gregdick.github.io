@@ -11,18 +11,26 @@ html
     nav.navbar.navbar-default.navbar-fixed-top
       .container-fluid#nav-container
         .navbar-header#nav-left
+          button#mobile-button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#hamburger" aria-expanded="false")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
           a(href="/#home")
             p.navbar-brand G R E G &nbsp; D I C K
-        .navbar-right#nav-right
-          a.links(href="https://github.com/gregdick")
-            i.fa.fa-github
-            span.hidden-xs GITHUB
-          a.links(href="https://www.linkedin.com/in/gregoryjdick")
-            i.fa.fa-linkedin
-            span.hidden-xs LINKEDIN
-          a.links(href="mailto:gregdick.dev@gmail.com")
-            p @
-            span.hidden-xs EMAIL
+        .collapse.navbar-collapse#hamburger
+          ul.nav.navbar-nav.navbar-right#nav-right
+            li
+              a.links(href="https://github.com/gregdick")
+                i.fa.fa-github
+                span.hidden-xs GITHUB
+            li
+              a.links(href="https://www.linkedin.com/in/gregoryjdick")
+                i.fa.fa-linkedin
+                span.hidden-xs LINKEDIN
+            li
+              a.links(href="mailto:gregdick.dev@gmail.com")
+                p @
+                span.hidden-xs EMAIL
     #home.container-fluid
       .row
         .col-lg-6.col-lg-offset-5.banner.text-right
@@ -66,8 +74,7 @@ html
             p.h4.text-right A Watch List
       .row.quote
         .col-lg-7.col-lg-offset-4.text-right
-            h3 The more that you read, the more things you will know. The more that you learn, the more places you'll go.
-            h3 Dr. Seuss #[i I Can Read With My Eyes Shut!--]
+            h3 I'm comfortable using these technologies and excited to learn others.
       .row.stack
         .tech.tall
           img(src="/img/js-logo.jpg")
