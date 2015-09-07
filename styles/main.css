@@ -55,10 +55,11 @@ a:visited {
     -webkit-transition: 350ms 300ms;
             transition: 350ms 300ms; }
 
-.navbar-right a:hover {
-  color: white; }
-  .navbar-right a:hover span {
-    opacity: 1; }
+#hamburger li a:hover, #hamburger li a:visited {
+  background-color: #333; }
+
+.navbar-right a:hover span {
+  opacity: 1; }
 
 /*=========== upper page stylings ===========*/
 .banner {

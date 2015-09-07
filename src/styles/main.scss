@@ -79,9 +79,13 @@ a:visited {
 
 }
 
-.navbar-right a:hover {
+#hamburger li a:hover, #hamburger li a:visited {
+  background-color : #333;
+}
 
-  color : white;
+
+
+.navbar-right a:hover {
 
   span {
     opacity : 1;
