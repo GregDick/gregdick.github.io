@@ -132,9 +132,9 @@ a:visited {
           transition: 1.5s 300ms; }
 
 /*=========== tech stack stylings ===========*/
-.quote {
-  margin-top: -5%; }
-  .quote h3 {
+.tech-blurb {
+  margin: -5% 5% 0; }
+  .tech-blurb h3 {
     line-height: 200%; }
 
 .stack {
